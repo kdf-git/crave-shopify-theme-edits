@@ -1051,3 +1051,5 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+console.log("Testing DOM Manipulation In Crave Theme")
