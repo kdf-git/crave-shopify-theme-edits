@@ -248,18 +248,6 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% sections 'header-group' %}
-    {% if section includes "header-group" %} 
-        <styles>
-
-          .header__heading-link{
-                display: inline-block;
-                padding: .75rem;
-                text-decoration: line-through;
-                word-break: break-word;
-          }
-        </styles>
-      {% endif %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
