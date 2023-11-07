@@ -1,0 +1,1 @@
+console.log("buksTest.js has been loaded correctly")
